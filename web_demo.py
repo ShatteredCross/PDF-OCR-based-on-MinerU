@@ -34,7 +34,7 @@ TEXTS = {
         "file_output_label": "下载结果文件",
         "instructions_title": "使用说明",
         "instructions": [
-            "1. **设置模型路径**: 输入 `MinerU2.5-1.2B` 模型文件夹的绝对路径",
+            "1. **设置模型路径**: 输入 `MinerU2.5-1.2B` 模型文件夹的绝对路径（如为Docker,输入 /app/checkpoints ）",
             "2. **点击加载模型**: 等待模型加载完成（状态栏显示成功）",
             "3. **上传文件**: 支持 PDF、JPG、JPEG、PNG、BMP 格式",
             "4. **开始识别**: 点击开始OCR识别按钮，等待处理完成",
@@ -414,8 +414,9 @@ def create_gradio_interface():
                 # 模型路径输入
                 model_path = gr.Textbox(
                     label="模型路径",
-                    placeholder="请输入模型文件夹的绝对路径...",
-                    lines=1
+                    placeholder="请输入模型文件夹的绝对路径...（如为Docker,输入 /app/checkpoints ）",
+                    lines=2,        # 显示行数
+                    max_lines=3,    # 最大行数，输入过长时自动滚动
                 )
                 
                 # 模型加载按钮

@@ -198,6 +198,14 @@ http://localhost:8100
     > 
     > 请注意，翻译由 AI 完成，可能存在技术术语不准确、语法错误或语义偏差。如有疑问，请以原始中文版本为准。
 
+## 识别效果展示
+> 请注意，OCR 识别功能可能由于模型本身、运行环境或输入图像的细微差异等原因，导致对同一张图片的多次识别结果不完全一致。我们不保证识别结果的绝对一致性，也不对因使用本项目而产生的任何直接或间接损失承担责任。
+> 
+> OCR识别结果仅供参考。
+
+使用 `fig_and_test_example\` 文件夹下的 `Lagrangian of the Standard Model ( Low Resolution ).pdf` 文件进行 OCR 测试，我们得到如下的结果：
+![](/fig_and_test_example/fig_Recognition_Results_Demonstration.png)
+
 ## 致谢
 
 本项目基于 OpenDataLab 开源的 MinerU2.5-1.2B OCR 大模型开发，特此感谢 OpenDataLab 团队在文档智能识别领域做出的杰出贡献和开源精神。

@@ -198,6 +198,15 @@ The program will generate Markdown files containing OCR recognition results in t
     > 
     > Please note that the translation was performed by AI and may contain technical terminology inaccuracies, grammatical errors, or semantic deviations. If in doubt, please refer to the original Chinese version.
 
+## Demonstration of Recognition Results
+
+> Please note that OCR recognition may yield slightly different results for the same image across multiple recognition attempts due to factors such as model characteristics, runtime environment, or subtle variations in input images. We do not guarantee absolute consistency in recognition results and assume no responsibility for any direct or indirect losses arising from the use of this project.
+> 
+> OCR recognition results are for reference only.
+
+Using the file `Lagrangian of the Standard Model (Low Resolution).pdf` from the `fig_and_test_example/` folder for OCR testing, we obtained the following results:
+![](/fig_and_test_example/fig_Recognition_Results_Demonstration.png)
+
 ## Acknowledgments
 
 This project is developed based on the open-source MinerU2.5-1.2B OCR large language model from OpenDataLab. We extend special thanks to the OpenDataLab team for their outstanding contributions and open-source spirit in the field of document intelligence recognition.
