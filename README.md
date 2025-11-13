@@ -207,6 +207,16 @@ The program will generate Markdown files containing OCR recognition results in t
 Using the file `Lagrangian of the Standard Model (Low Resolution).pdf` from the `fig_and_test_example/` folder for OCR testing, we obtained the following results:
 ![](/fig_and_test_example/fig_Recognition_Results_Demonstration.png)
 
+## Copyright Notice
+
+- **Core Model**: The [MinerU2.5-2509-1.2B](https://huggingface.co/opendatalab/MinerU2.5-2509-1.2B) model incorporated in this project remains the intellectual property of its original developers, [OpenDataLab](https://github.com/opendatalab). Users must comply with the license terms officially promulgated by the respective rights holders.
+
+- **Front-end Code and Adaptation Layer**: The copyright in the front-end interactive interface scripts, encapsulation code, and associated tooling scripts developed for this project is vested in ShatteredCross © 2025. All rights reserved.
+
+- This project as a whole is licensed under the **GNU Affero General Public License version 3.0 (AGPL-3.0)**.
+
+- Whereas the core component, the MinerU2.5-2509-1.2B model, is distributed under the AGPL-3.0 license, the terms of said license mandate that all derivative portions of this project must likewise be made available to users under the identical license, including the provision of corresponding source code.
+
 ## Acknowledgments
 
 This project is developed based on the open-source MinerU2.5-1.2B OCR large language model from OpenDataLab. We extend special thanks to the OpenDataLab team for their outstanding contributions and open-source spirit in the field of document intelligence recognition.

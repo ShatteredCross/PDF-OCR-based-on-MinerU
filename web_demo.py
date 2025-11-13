@@ -1,3 +1,7 @@
+"""
+@license AGPL-3.0
+Copyright (c) 2025 ShatteredCross. All rights reserved.
+"""
 from datetime import datetime
 import os
 import tempfile

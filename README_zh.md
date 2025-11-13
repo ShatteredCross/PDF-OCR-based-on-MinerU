@@ -206,6 +206,16 @@ http://localhost:8100
 使用 `fig_and_test_example\` 文件夹下的 `Lagrangian of the Standard Model ( Low Resolution ).pdf` 文件进行 OCR 测试，我们得到如下的结果：
 ![](/fig_and_test_example/fig_Recognition_Results_Demonstration.png)
 
+## 版权声明
+
+- **核心模型**：本项目使用的 [MinerU2.5-2509-1.2B](https://huggingface.co/opendatalab/MinerU2.5-2509-1.2B) 大模型，其版权归其原始开发者 [OpenDataLab](https://github.com/opendatalab) 所有。使用者应遵守其官方发布的许可证条款。
+
+- **前端代码与适配层**：本项目中对模型的前端交互界面脚本、封装以及相关工具脚本，其版权归属于 ShatteredCross © 2025。
+
+- 本项目的整体授权遵循 **GNU Affero General Public License v3.0 (AGPL-3.0)**。
+
+- 鉴于核心组件 MinerU2.5-2509-1.2B 大模型采用 AGPL-3.0 许可证发布，根据该许可证的条款，本项目的所有衍生部分也必须以相同的许可证向用户开放源代码。
+
 ## 致谢
 
 本项目基于 OpenDataLab 开源的 MinerU2.5-1.2B OCR 大模型开发，特此感谢 OpenDataLab 团队在文档智能识别领域做出的杰出贡献和开源精神。
